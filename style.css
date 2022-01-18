@@ -11,7 +11,7 @@ body{
 
 .colors div{
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid transparent;
     text-align: center;
     margin: 20px auto;
     width: 32%;
@@ -30,4 +30,40 @@ body{
 }
 #color4{
     background-color: #f576db;
+}
+
+.fonts {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.font-container {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.font-container h3 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.font-container #Bold{
+    font-weight: bold;
+}
+
+.font-container #Italics{
+    font-style: italic;
+}
+
+.open-sans{
+    font-family: "Open Sans";
+}
+
+.space-mono {
+    font-family: 'Space Mono'
+}
+
+.kanit {
+    font-family: 'Kanit';
 }
